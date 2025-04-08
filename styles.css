@@ -1,0 +1,284 @@
+/* ESTILOS GENERALES */
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #ecf0f1; 
+    color: #34495e; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ENCABEZADO */
+.encabezado {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #1a5276; 
+    color: white;
+    padding: 20px;
+}
+
+.encabezado img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.encabezado h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.encabezado p {
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}
+
+/* SECCIÓN SOBRE NOSOTROS */
+.sobre-nosotros {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ecf0f1;
+}
+
+.sobre-nosotros h2 {
+    font-size: 28px;
+    color: #1a5276;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.sobre-nosotros img {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+.sobre-nosotros p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 800px;
+    color: #34495e;
+}
+
+.sobre-nosotros h3 {
+    font-size: 20px;
+    color: #2ecc71;
+    margin-top: 30px;
+}
+
+/* SECCIÓN OFERTAS */
+.ofertas {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.ofertas h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #1a5276;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.contenedor-ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.oferta {
+    width: 300px;
+    background-color: #f8f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.oferta:hover {
+    transform: scale(1.05);
+}
+
+.oferta img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.oferta h4 {
+    font-size: 22px;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+.oferta p {
+    font-size: 16px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.oferta h5 {
+    font-size: 16px;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+/* SECCIÓN DESTINOS */
+.destinos {
+    padding: 40px 20px;
+    background-color: #eaf2f8;
+}
+
+.destinos h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #154360;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.categoria {
+    margin-bottom: 40px;
+}
+
+.categoria h3 {
+    color: #1f618d;
+    margin-bottom: 15px;
+}
+
+.tabla-destinos {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-destinos th, .tabla-destinos td {
+    padding: 12px 15px;
+    border: 1px solid #d5d8dc;
+    text-align: left;
+}
+
+.tabla-destinos th {
+    background-color: #aed6f1;
+    color: #1b2631;
+}
+
+.tabla-destinos tr:nth-child(even) {
+    background-color: #f4f6f7;
+}
+
+/* SECCIÓN POR QUÉ ELEGIRNOS */
+.porque-elegirnos {
+    background-color: #fef9e7;
+    padding: 40px 20px;
+    color: #6e2c00;
+    border-top: 3px solid #f5cba7;
+    border-bottom: 3px solid #f5cba7;
+}
+
+.porque-elegirnos h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.lista-ventajas {
+    list-style-type: square;
+    padding-left: 40px;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* SECCIÓN TESTIMONIOS */
+.testimonios {
+    background-color: #f4f6f7;
+    padding: 40px 20px;
+    color: #2e4053;
+    text-align: center;
+}
+
+.testimonios h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.comentario {
+    margin-bottom: 20px;
+    font-style: italic;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+/* SECCIÓN CONTACTO */
+.contacto {
+    background-color: #ecf0f1;
+    padding: 40px 20px;
+    color: #2c3e50;
+}
+
+.contacto h2, .contacto h3 {
+    text-align: center;
+    color: #1a5276;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.contacto ul {
+    list-style-type: none;
+    padding-left: 0;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.contacto ul li {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.horarios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.horarios th {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.horarios td {
+    border: 1px solid #bbb;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.contacto img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* PIE DE PÁGINA */
+.footer {
+    background-color: #34495e;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
